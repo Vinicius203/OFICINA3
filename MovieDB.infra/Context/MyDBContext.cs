@@ -11,16 +11,16 @@ namespace MovieDB.infra.Context
     public class MyDBContext : DbContext
     {
         public DbSet<Movie> Movies { get; set; }
+        public DbSet<Actor> Actors { get; set; }
+        public DbSet<Director> Directors { get; set; }
 
-        public MyDBContext() { }
 
         protected override void OnConfiguring(DbContextOptionsBuilder dbContextOptionsBuilder)
         {
             if (!dbContextOptionsBuilder.IsConfigured)
             {
                 string connectionString = "server=localhost; " +
-                "port=3306; database=moviedb; user=root; " +
-                "password=1234";
+                "port=3306; database=moviedb; user=root;";
                 dbContextOptionsBuilder.UseMySql(connectionString,
                 ServerVersion.AutoDetect(connectionString));
             }
@@ -39,6 +39,24 @@ namespace MovieDB.infra.Context
                 //entity.Property(x => x.Genre).HasConversion(
                 //    x => string.Join(',' x),
                 //    x => x.Split(',', StringSplitOptions.RemoveEmptyEntries);
+            });
+
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Actor>(entity =>
+            {
+                entity.HasKey(x => x.ID);
+                entity.Property(x => x.first_name).HasMaxLength(50).IsRequired();
+                entity.Property(x => x.last_name).HasMaxLength(50).IsRequired();
+                entity.Property(x => x.birthdate).IsRequired();
+            });
+
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Director>(entity =>
+            {
+                entity.HasKey(x => x.ID);
+                entity.Property(x => x.first_name).HasMaxLength(50).IsRequired();
+                entity.Property(x => x.last_name).HasMaxLength(50).IsRequired();
+                entity.Property(x => x.birthdate).IsRequired();
             });
         }   
 

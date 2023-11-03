@@ -1,0 +1,15 @@
+C:\Users\1413714\source\repos\MovieDB\MovieDB.infra\bin\Debug\net6.0\MovieDB.infra.deps.json
+C:\Users\1413714\source\repos\MovieDB\MovieDB.infra\bin\Debug\net6.0\MovieDB.infra.dll
+C:\Users\1413714\source\repos\MovieDB\MovieDB.infra\bin\Debug\net6.0\MovieDB.infra.pdb
+C:\Users\1413714\source\repos\MovieDB\MovieDB.infra\bin\Debug\net6.0\MovieDB.domain.dll
+C:\Users\1413714\source\repos\MovieDB\MovieDB.infra\bin\Debug\net6.0\MovieDB.domain.pdb
+C:\Users\1413714\source\repos\MovieDB\MovieDB.infra\obj\Debug\net6.0\MovieDB.infra.csproj.AssemblyReference.cache
+C:\Users\1413714\source\repos\MovieDB\MovieDB.infra\obj\Debug\net6.0\MovieDB.infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1413714\source\repos\MovieDB\MovieDB.infra\obj\Debug\net6.0\MovieDB.infra.AssemblyInfoInputs.cache
+C:\Users\1413714\source\repos\MovieDB\MovieDB.infra\obj\Debug\net6.0\MovieDB.infra.AssemblyInfo.cs
+C:\Users\1413714\source\repos\MovieDB\MovieDB.infra\obj\Debug\net6.0\MovieDB.infra.csproj.CoreCompileInputs.cache
+C:\Users\1413714\source\repos\MovieDB\MovieDB.infra\obj\Debug\net6.0\MovieDB.infra.csproj.CopyComplete
+C:\Users\1413714\source\repos\MovieDB\MovieDB.infra\obj\Debug\net6.0\MovieDB.infra.dll
+C:\Users\1413714\source\repos\MovieDB\MovieDB.infra\obj\Debug\net6.0\refint\MovieDB.infra.dll
+C:\Users\1413714\source\repos\MovieDB\MovieDB.infra\obj\Debug\net6.0\MovieDB.infra.pdb
+C:\Users\1413714\source\repos\MovieDB\MovieDB.infra\obj\Debug\net6.0\ref\MovieDB.infra.dll

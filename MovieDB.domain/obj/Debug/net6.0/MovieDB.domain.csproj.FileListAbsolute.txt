@@ -1,0 +1,11 @@
+C:\Users\1413714\source\repos\MovieDB\MovieDB.domain\bin\Debug\net6.0\MovieDB.domain.deps.json
+C:\Users\1413714\source\repos\MovieDB\MovieDB.domain\bin\Debug\net6.0\MovieDB.domain.dll
+C:\Users\1413714\source\repos\MovieDB\MovieDB.domain\bin\Debug\net6.0\MovieDB.domain.pdb
+C:\Users\1413714\source\repos\MovieDB\MovieDB.domain\obj\Debug\net6.0\MovieDB.domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1413714\source\repos\MovieDB\MovieDB.domain\obj\Debug\net6.0\MovieDB.domain.AssemblyInfoInputs.cache
+C:\Users\1413714\source\repos\MovieDB\MovieDB.domain\obj\Debug\net6.0\MovieDB.domain.AssemblyInfo.cs
+C:\Users\1413714\source\repos\MovieDB\MovieDB.domain\obj\Debug\net6.0\MovieDB.domain.csproj.CoreCompileInputs.cache
+C:\Users\1413714\source\repos\MovieDB\MovieDB.domain\obj\Debug\net6.0\MovieDB.domain.dll
+C:\Users\1413714\source\repos\MovieDB\MovieDB.domain\obj\Debug\net6.0\refint\MovieDB.domain.dll
+C:\Users\1413714\source\repos\MovieDB\MovieDB.domain\obj\Debug\net6.0\MovieDB.domain.pdb
+C:\Users\1413714\source\repos\MovieDB\MovieDB.domain\obj\Debug\net6.0\ref\MovieDB.domain.dll

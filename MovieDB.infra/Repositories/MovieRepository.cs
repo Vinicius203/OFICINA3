@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace MovieDB.infra.Repositories
 {
-    public class MovieRepository : IRepository
+    public class MovieRepository : IGenericRepository<Movie>
     {
         private readonly MyDBContext _context;
 
@@ -23,7 +23,7 @@ namespace MovieDB.infra.Repositories
 
         public IEnumerable<Movie> GetAll()
         {
-            return _context.Movies.ToList();
+            return _context.Movies;
         }
 
         public Movie GetById(int id)

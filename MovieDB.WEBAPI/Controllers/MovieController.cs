@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MovieDB.domain.Entities;
+using MovieDB.domain.Services;
 using MovieDB.infra.Repositories;
 
 namespace MovieDB.WEBAPI.Controllers
@@ -7,13 +8,18 @@ namespace MovieDB.WEBAPI.Controllers
     [Route("api/movies")]
     public class MovieController : ControllerBase
     {
-        private readonly MovieRepository _movie;
+        private readonly MovieService _movie;
+
+        public MovieController(MovieService movie)
+        {
+            _movie = movie;
+        }
 
         [HttpGet]
 
-        public ActionResult<IEnumerable<Movie>> Get()
+        public IEnumerable<Movie> Get()
         {
-            return _movie.GetAll().ToList();
+            return _movie.GetAll();
         }
 
         [HttpGet("{id}")]
